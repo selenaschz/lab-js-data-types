@@ -60,7 +60,7 @@ console.log(`Tip amount: ${tipAmount} €.`);
 
 // Generate a random integer between 1 and 10 (inclusive)
 //+1 para incuir el 10
-const randomNumber = Math.round((Math.random() * 10+1));
+const randomNumber = Math.floor((Math.random() * 10)+1);
 
 // Print the generated random number
 console.log(randomNumber);
